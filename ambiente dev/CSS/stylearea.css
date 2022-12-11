@@ -6,7 +6,8 @@
     left: 7%;
     top: 5%;
     z-index: 10;
-}.politeia
+}
+.politeia
 {
     background-color: #10B9B9;
 }
@@ -16,7 +17,7 @@
     width: 1418px;
     height: 90px;
     left: 5.5rem;
-    top: 27px;
+    top: 24.5px;
     background: #082B79;
     border-radius: 25px;
 }
@@ -186,7 +187,7 @@
     z-index: -1;
 }
 .opcoes2 :hover
-{
+{   
     transform:scale(1.25,1.25);
 }
 .opcoes2:hover::after
@@ -232,4 +233,7 @@
     left: 12rem;
     top: 780px;
 }
-
+a:hover
+{
+    filter: none;
+}

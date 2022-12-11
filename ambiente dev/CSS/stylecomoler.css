@@ -1,0 +1,93 @@
+body
+{
+    background-color: #E7EBF4
+}
+.logo
+{
+    width: 70px;
+    border-radius: 20px;
+    position: absolute;
+    left: 7%;
+    top: 5%;
+    z-index: 10;
+}
+.barra
+{
+    position: absolute;
+    width: 1418px;
+    height: 90px;
+    left: 5.5rem;
+    top: 24.5px;
+    background: #082B79;
+    border-radius: 25px;
+}
+
+.barra_inferior
+{
+    position: absolute;
+    width: 1642px;
+    height: 45px;
+    left: -58px;
+    top: 720px;
+    
+    background: #103A95
+
+}
+
+.img_titulo
+{
+    flex-wrap: wrap;
+    position: absolute;
+    border-radius: 2px;
+    top: 200px;
+    left: 640px;
+    width: 43%;
+    z-index: 3;
+    border-radius: 15px;
+}
+
+.texto_titulo
+{
+    flex-wrap: wrap;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #414141;
+    
+    width: 500px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+span
+{
+    color: #fa911b;
+}
+
+
+.conteudo
+{
+
+
+    position:absolute;
+    width: 80%;
+    left: 95px;
+    top: 900px;
+}
+
+p
+{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+ul
+{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}

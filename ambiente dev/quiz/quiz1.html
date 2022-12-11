@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politizando Quiz</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="text/javascript" src="../js/java.js"></script>
+</head>
+<body>
+    <div id="Pergunta">Há uma divisão da gestão pública em três poderes no qual o objetivo é a especificação de 
+        funções junto à população e visa a possibilidade de que cada um deles possa fiscalizar o outro,
+         garantindo assim, uma fiscalização mútua, são eles:</div>
+
+    <div class="Resposta1" id="errada1" draggable="true" ondragstart="drag(event)">
+        a) Judiciário, Governador, legislativo
+    </div>
+
+    <div class="Resposta2" id="certa1" draggable="true" ondragstart="drag(event)">
+        b) Legislativo, Executivo, Judiciário   
+    </div> 
+
+    <div class="Resposta3" id="errada1" draggable="true" ondragstart="drag(event)">
+        c) Supremo Tribunal Federal, Senador, Deputado Estadual   
+    </div> 
+    
+    <div class="Resposta4" id="errada1" draggable="true" ondragstart="drag(event)">
+        c) Supremo Tribunal Federal, Senador, Deputado Estadual    
+    </div>
+    
+    <div class="DivDestino"  ondrop="drop1(event)" ondragover="allowDrop(event)">
+        Enviar Resposta
+    </div>
+    <!--<img class="LogoDrag1" src="img/moto.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69" />
+    <img class="LogoDrag2" src="img/caroo.png" draggable="true" ondragstart="drag(event)" width="336" height="69" />
+    <img class="LogoDrag3" src="img/fh16.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69" />
+    <img class="LogoDrag4" src="img/omir.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69" />-->
+</body>
+</html>

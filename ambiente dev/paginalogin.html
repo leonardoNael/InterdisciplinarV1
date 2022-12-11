@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/java.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Politizando | Login</title>
+</head>
+<body>
+
+<div class="retangulo1"></div>
+<div class="retangulo2"></div>
+<div class="conteudo">
+    <img class="logo" src="img/logo.png" alt="">
+
+    <div class="email">
+        Email
+    </div>
+    
+    <div class="senha">
+        Senha
+    </div>
+
+    <input class="cx1" id="txtUsuario" type="text" placeholder="Email" autofocus />
+    <input class="cx2" id="txtSenha" type="password" placeholder="Senha" />
+
+    <img class="nao_vendo" id="naovendo" src="img/nao vendo.png" title="Ver senha" onclick="versenha()" />
+    <img class="vendo" id="vendo" src="img/vendo.png" title="Não ver senha" onclick="naoversenha()" />
+
+    <div class="esqueci_senha">
+        Esqueci minha senha
+    </div>
+
+    <button class="enviar" onclick="login()">Login</button>
+</div>
+    <div class="imagem_lateral">
+        <img src="img/pissoas_feliz 1.png" />
+    </div>
+    
+</body>
+</html>

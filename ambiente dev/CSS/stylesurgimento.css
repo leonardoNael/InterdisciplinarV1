@@ -11,6 +11,7 @@ body
     top: 5%;
     z-index: 10;
 }
+
 .barra
 {
     position: absolute;
@@ -30,7 +31,7 @@ body
     left: -58px;
     top: 720px;
     
-    background: #103A95
+    background: #366adb
 
 }
 

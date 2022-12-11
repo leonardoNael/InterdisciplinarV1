@@ -26,9 +26,9 @@ body
 .barra_inferior
 {
     position: absolute;
-    width: 1642px;
+    width: 1583px;
     height: 45px;
-    left: -58px;
+    left: 0rem;
     top: 720px;
     
     background: #082B79
@@ -69,7 +69,6 @@ span
     color: #fa911b;
 }
 
-
 .conteudo
 {
 
@@ -81,12 +80,6 @@ span
 }
 
 p
-{
-    font-size: 1.2rem;
-    font-family: 'Roboto', sans-serif;
-    text-align: justify;
-}
-ul
 {
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
@@ -109,6 +102,8 @@ ul
     font-weight: bold;
     color: #103A95;
     z-index: 10;
+    justify-content: left;
+    align-items: flex-start;
 }
 .inicio
 {
@@ -123,5 +118,48 @@ ul
     line-height: 35px;
     font-family: 'Inter', sans-serif ;
     font-weight: bold;
+    
+}
+
+.img_legislativos
+{
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    width: 40%;
+    left: 25rem;
+    z-index: 3;
+    border-radius: 15px;
+}
+.img_executivo
+{
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    width: 40%;
+    left: 25rem;
+    z-index: 3;
+    border-radius: 15px;
+}
+.img_judiciario
+{
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    width: 40%;
+    left: 25rem;
+    z-index: 3;
+    border-radius: 15px;
+}
+.conteudos
+{
+
+}
+.icone
+{
+    width: 25px;
     
 }

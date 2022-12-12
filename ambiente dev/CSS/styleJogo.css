@@ -141,9 +141,10 @@ body
     padding:10px; 
     background-color: #efc830;
     border-radius: 20px;
-
+    align-items: center;
+    display: flex;
     font-weight: bold;
-         
+    
     user-select: none;  
 }
 

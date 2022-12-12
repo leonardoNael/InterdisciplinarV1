@@ -68,6 +68,15 @@ p
     align-items: flex-start;
     display: flex;
 }
+.icone
+{
+    position: relative;
+    width: 25px;
+    left: -2px;
+    top: 3px;
+    justify-content:left;
+    align-items: flex-start;  
+}
 .inicio
 {
     position: absolute;

@@ -63,7 +63,6 @@
     line-height: 35px;
     font-family: 'Inter', sans-serif ;
     font-weight: bold;
-    
 }
 .areaprincipal
 {
@@ -78,9 +77,9 @@
 .pagaluno
 {
     position: absolute;
-    width: 512px;
+    width: 270px;
     height: 47px;
-    left: 660px;
+    left: 679px;
     top: 200px;
 
     font-family: 'Iceland';
@@ -97,7 +96,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
     box-sizing: border-box;
     left: 5rem;
     top: 5px;
@@ -180,7 +179,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
     box-sizing: border-box;
     left: 5rem;
     top: 300px;

@@ -1,7 +1,8 @@
 body
 {
-    background-color: #3F68C6;
+    background-color:  #103A95;
 font-family:'Inter', serif;
+
 }
 
 .voltar
@@ -185,4 +186,12 @@ height: 40px;
 
 background: #3F68C6;
 border-radius: 15px;
+}
+.imagem_lateral
+{
+    position: absolute;
+    width: 749px;
+    height: 631px;
+    left: 250px;
+    top: 110px;
 }

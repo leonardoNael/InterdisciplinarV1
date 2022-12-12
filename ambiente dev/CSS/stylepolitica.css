@@ -69,6 +69,23 @@ span
     color: #fa911b;
 }
 
+.conteudos
+{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background-color: #082B79;
+    top: 840px;
+    left: 5.5rem;
+    display: flex;
+    font-family: 'Inter', sans-serif ;
+    font-weight: bold;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    user-select: none;
+}
 
 .conteudo
 {

@@ -112,7 +112,6 @@ function drop1(ev)
     
     document.getElementById("botoesJ").style.display = 'block';  
 
-
     if(data != document.getElementById("c"))
     {
         document.getElementById("c").style.visibility = 'hidden'

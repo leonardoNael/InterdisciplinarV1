@@ -606,11 +606,11 @@ span
     border: 1px solid #082B79;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
-
+    font-family: 'Sifonn', sans-serif;
     color: white;
     text-align: center;
     line-height: 45px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .cont2
 {
@@ -626,11 +626,11 @@ span
     border: 1px solid #082B79;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
-
+    font-family: 'Sifonn', sans-serif;
     color: white;
     text-align: center;
     line-height: 45px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .cont3
 {
@@ -645,11 +645,11 @@ span
     border: 1px solid #082B79;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
-
+    font-family: 'Sifonn', sans-serif;
     color: white;
     text-align: center;
     line-height: 45px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .cont4
 {
@@ -664,12 +664,11 @@ span
     border: 1px solid #082B79;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
-
-   
+    font-family: 'Sifonn', sans-serif;
     color: white;
     text-align: center;
     line-height: 30px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -689,11 +688,11 @@ span
     border: 1px solid #082B79;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
-
+    font-family: 'Sifonn', sans-serif;
     color: white;
     text-align: center;
     line-height: 30px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
     overflow-wrap: break-word;
     word-wrap: break-word;

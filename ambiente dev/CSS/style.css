@@ -1,4 +1,3 @@
-
 body
 {
     background-color: #E7EBF4;
@@ -551,13 +550,26 @@ span
 
 .rodape
 {
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
     position: absolute;
     width: 1583px;
     height: 120px;
     left: 0px;
-    top: 3350px;
+    top: 3360px;
     background: #082B79;
 }
+
+.infos
+{
+    left: 70px;
+    font-size: 0.8rem;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+}
+
 .cont1
 {
     box-sizing: border-box;

@@ -1,7 +1,15 @@
 var acertos = 0;
 var loginBlock = 3;
-var R = ["certa1","certa2","certa3","certa4","certa5","certa6","certa7","certa8","certa9","certa10","certa11","certa12"];
-var errada = ["errada1","errada2","errada3","errada4","errada5","errada6","errada7","errada8","errada9","errada10","errada11","errada12"]
+var div = '';
+
+var local = '';
+
+var pagAtual = 1;
+var errada = ["e1", "e2", "e3"];
+
+var quiz = ["quiz1.html", "quiz2.html", "quiz3.html", "quiz4.html", "quiz5.html", "quiz6.html",
+    "quiz7.html", "quiz8.html", "quiz9.html", "quiz10.html", "quiz11.html", "quiz12.html" ]
+
 
 function login()
 {
@@ -61,42 +69,192 @@ function drag(ev)
 
 function drop1(ev)
 {
-    var quiz = ["quiz1.html", "quiz2.html", "quiz3.html", "quiz4.html", "quiz5.html", "quiz6.html",
-    "quiz7.html", "quiz8.html", "quiz9.html", "quiz10.html", "quiz11.html", "quiz12.html" ]
     var data = ev.dataTransfer.getData("Text");
     ev.target.appendChild(document.getElementById(data));
     ev.preventDefault();
-
-    var btn = document.createElement("input");  
-    btn.type = 'button';  
-    btn.value = 'Enviar';  
-    btn.onclick = function() { 
-
-        for(var inc = 0; inc < 13; inc++)
-        {
-            if(data == R[inc])
-            {
-                acertos++;
-                window.location = quiz[inc+1];
-                break;
-            }
-            else if(data == errada[inc])
-            {
-                window.location = quiz[inc+1];
-            }
-               
-            
-        }
+    document.getElementById("botoesJ").style.display = 'block';  
     
-        
+    if(data != document.getElementById("c"))
+    {
+        document.getElementById("c").style.visibility = 'hidden'
+        for(var inc = 0; inc < 4; inc++)
+        {   
+            if(data != errada[inc])
+            {
+                document.getElementById(errada[inc]).style.visibility = 'hidden';
+            }
+        }
     }
-
-    var btn1 = document.createElement("input");  
-    btn1.type = 'button';  
-    btn1.value = 'Corrigir';  
-    btn1.onclick = function() { window.location.reload() };  
-    document.body.appendChild(btn1);
-    document.body.appendChild(btn);
-
+    
+    div = data;
 }
 
+function enviar1()
+{   
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[1];
+    }
+    else
+    {
+        window.location = quiz[1];
+    }
+}
+
+function enviar2()
+{   
+
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[2];
+    }
+    else
+    {
+        window.location = quiz[2];
+    }
+}
+
+function enviar3()
+{   
+
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[3];
+    }
+    else
+    {
+        window.location = quiz[3];
+    }
+}
+
+function enviar4()
+{   
+
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[4];
+    }
+    else
+    {
+        window.location = quiz[4];
+    }
+}
+
+function enviar5()
+{   
+
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[5];
+    }
+    else
+    {
+        window.location = quiz[5];
+    }
+}
+
+function enviar6()
+{   
+
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[6];
+    }
+    else
+    {
+        window.location = quiz[6];
+    }
+}
+
+function enviar7()
+{   
+
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[7];
+    }
+    else
+    {
+        window.location = quiz[7];
+    }
+}
+
+function enviar8()
+{   
+
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[8];
+    }
+    else
+    {
+        window.location = quiz[8];
+    }
+}
+
+function enviar9()
+{   
+
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[9];
+    }
+    else
+    {
+        window.location = quiz[9];
+    }
+}
+
+function enviar10()
+{   
+
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[10];
+    }
+    else
+    {
+        window.location = quiz[10];
+    }
+}
+
+function enviar11()
+{   
+
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[11];
+    }
+    else
+    {
+        window.location = quiz[11];
+    }
+}
+function enviar12()
+{   
+
+    if(div == document.getElementById("c"))
+    {  
+        acertos++;
+        window.location = quiz[12];
+    }
+    else
+    {
+        window.location = quiz[12];
+    }
+}
+function corrigir()
+{
+    window.location.reload();
+}

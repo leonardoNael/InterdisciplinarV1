@@ -12,21 +12,30 @@
     <div id="Pergunta">
         Tem como função a elaboração de leis e a fiscalização dos atos do Poder Executivo:
     </div> 
-    <div class="Resposta1" id="errada2" draggable="true" ondragstart="drag(event)">
+    <div class="Resposta1" id="e1" draggable="true" ondragstart="drag(event)">
         a) Poder Judiciário    
     </div> 
-    <div class="Resposta2" draggable="true" id="errada2" ondragstart="drag(event)">
+    <div class="Resposta2" draggable="true" id="e2" ondragstart="drag(event)">
         b) Poder Público    
     </div> 
-    <div class="Resposta3" draggable="true" id="errada2" ondragstart="drag(event)">
+    <div class="Resposta3" draggable="true" id="e3" ondragstart="drag(event)">
         c) Poder Executivo   
      </div> 
-    <div class="Resposta4" draggable="true" id="certa2" ondragstart="drag(event)">
+    <div class="Resposta4" draggable="true" id="c" ondragstart="drag(event)">
         d) Poder Legislativo   
      </div>
     
     <div class="DivDestino" ondrop="drop1(event)" ondragover="allowDrop(event)">
         Enviar resposta
+    </div>
+
+    <div class="botoes" id="botoesJ">
+        <div class="botao_enviar">
+            <button onclick="enviar2()">Enviar</button>
+        </div>
+        <div class="botao_corrigir">
+            <button onclick="corrigir()">Corrigir</button>
+        </div>
     </div>
 </body>
 </html>

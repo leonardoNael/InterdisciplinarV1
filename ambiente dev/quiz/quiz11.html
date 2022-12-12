@@ -11,21 +11,29 @@
 <body>
     <div id="Pergunta">
         A melhor definição de democracia seria:    </div> 
-    <div class="Resposta1" id="errada11" draggable="true" ondragstart="drag(event)">
+    <div class="Resposta1" id="e1" draggable="true" ondragstart="drag(event)">
         a) é uma ditadura política em que todos os cidadãos elegíveis participam igualmente das decisões a serem tomadas. 
        </div> 
-    <div class="Resposta2" id="errada11" draggable="true" ondragstart="drag(event)">
+    <div class="Resposta2" id="e2" draggable="true" ondragstart="drag(event)">
         b) é uma ditadura política em que todos os cidadãos elegíveis participam igualmente das decisões a serem tomadas.  
       </div> 
-    <div class="Resposta3" id="certa11" draggable="true" ondragstart="drag(event)">
+    <div class="Resposta3" id="c" draggable="true" ondragstart="drag(event)">
         c) é a prática política de dissolução, de alguma maneira, do poder e das
          decisões políticas em meio aos indivíduos da sociedade.
     </div> 
-    <div class="Resposta4" id="errada11" draggable="true" ondragstart="drag(event)">
+    <div class="Resposta4" id="e3" draggable="true" ondragstart="drag(event)">
         d) A população se une ao Estado para revitalização do orçamento constitucional.    </div>
     
     <div class="DivDestino" ondrop="drop1(event)" ondragover="allowDrop(event)">
         Enviar resposta
+    </div>
+    <div class="botoes" id="botoesJ">
+        <div class="botao_enviar">
+            <button onclick="enviar11()">Enviar</button>
+        </div>
+        <div class="botao_corrigir">
+            <button onclick="corrigir()">Corrigir</button>
+        </div>
     </div>
 </body>
 </html>

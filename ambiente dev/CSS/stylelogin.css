@@ -186,8 +186,12 @@ z-index: 2;
 width: 749px;
 height: 631px;
 left: 806px;
-top: 50px;
+top: 75px;
 
-background: url(pissoas_feliz.png);
-border-radius: 20px;
+}
+
+.imagem
+{
+    border-radius: 25px; 
+    width: 80%;
 }

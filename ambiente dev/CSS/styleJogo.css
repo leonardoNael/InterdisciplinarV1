@@ -28,7 +28,6 @@ body
 
 .Resposta1
 { 
-    font-size: 1.8rem;
     position: absolute;
     top: 230px;
     left: 560px;
@@ -39,7 +38,7 @@ body
     background-color: white;
 
     
-    width: 600px;
+    width: 170px;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word

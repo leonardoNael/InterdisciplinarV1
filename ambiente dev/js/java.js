@@ -69,8 +69,18 @@ function naoversenha()
 
 function enviarCadastro()
 {
-    alert("Cadastro concluído com sucesso!");
-    window.location.href = 'index.html'
+    var senha = document.getElementById("senha").value;
+    var cfsenha = document.getElementById("cfsenha").value;
+
+    if(senha != cfsenha)
+    {
+        alert("As senhas não conferem.");
+    }
+    else
+    {
+        alert("Cadastro concluído com sucesso!");
+        window.location.href = 'index.html'
+    }
 }
 /*Login e cadastro*/
 

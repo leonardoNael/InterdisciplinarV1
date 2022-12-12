@@ -22,13 +22,13 @@ function login()
     {
         alert("Usuário não encontrado.");
     }
-    else if(usuario == "admin" && parseInt(senha) != 1)
+    else if(usuario == "admin" && senha != "admin")
     {
         alert("Senha incorreta!");
         loginBlock--;
         alert("Tentativas restantes: "+loginBlock);
     }
-    else if(usuario == "admin" && parseInt(senha) == 1)
+    else if(usuario == "admin" && senha == "admin")
     {
         window.location.href = "areadoaluno.html";
     } 
@@ -36,7 +36,7 @@ function login()
     document.getElementById("txtUsuario").value = '';
     document.getElementById("txtSenha").value = '';
 
-    if(loginBlock == 2)
+    if(loginBlock == 0)
     {
         document.getElementById("txtUsuario").disabled = true;
         document.getElementById("txtSenha").disabled = true;
@@ -69,8 +69,18 @@ function naoversenha()
 
 function enviarCadastro()
 {
-    alert("Cadastro concluído com sucesso!");
-    window.location.href = 'index.html'
+    var senha = document.getElementById("senha").value;
+    var cfsenha = document.getElementById("cfsenha").value;
+
+    if(senha != cfsenha)
+    {
+        alert("As senhas não conferem.");
+    }
+    else
+    {
+        alert("Cadastro concluído com sucesso!");
+        window.location.href = 'index.html'
+    }
 }
 /*Login e cadastro*/
 

@@ -135,3 +135,11 @@ ul
     font-family: 'Roboto', sans-serif;
     text-align: justify;
 }
+
+.carrosel
+{
+position: absolute;
+left: 110px;
+top: 3485px;
+width: 79%;
+}

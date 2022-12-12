@@ -97,8 +97,8 @@ function drag(ev)
 function drop1(ev)
 {
     var data = ev.dataTransfer.getData("Text");
-    /*ev.target.appendChild(document.getElementById(data));
-    ev.preventDefault();*/
+    ev.target.appendChild(document.getElementById(data));
+    ev.preventDefault();
     
     document.getElementById("botoesJ").style.display = 'block';  
 
@@ -122,7 +122,6 @@ function enviar1()
 {   
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[1];
     }
     else
@@ -135,7 +134,6 @@ function enviar2()
 
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[2];
     }
     else
@@ -148,7 +146,6 @@ function enviar3()
 
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[3];
     }
     else
@@ -161,7 +158,6 @@ function enviar4()
 
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[4];
     }
     else
@@ -174,7 +170,6 @@ function enviar5()
 
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[5];
     }
     else
@@ -187,7 +182,6 @@ function enviar6()
 
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[6];
     }
     else
@@ -200,7 +194,6 @@ function enviar7()
 
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[7];
     }
     else
@@ -213,7 +206,6 @@ function enviar8()
 
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[8];
     }
     else
@@ -226,7 +218,6 @@ function enviar9()
 
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[9];
     }
     else
@@ -239,7 +230,6 @@ function enviar10()
 
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[10];
     }
     else
@@ -252,7 +242,6 @@ function enviar11()
 
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[11];
     }
     else
@@ -265,7 +254,6 @@ function enviar12()
 
     if(div == document.getElementById("c"))
     {  
-        acertos++;
         window.location = quiz[12];
     }
     else

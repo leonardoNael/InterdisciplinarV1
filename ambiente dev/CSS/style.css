@@ -384,9 +384,9 @@ p
 {
     position: absolute;
     left: 0;
-    top: 1900px;
+    top: 2000px;
     width:1583px ;
-    height: 400px;
+    height: 1360px;
     background-color: #0c204b;
     background-image: url("doodlw.png");
     font-family: 'Sifonn';
@@ -394,6 +394,120 @@ p
 
 }
 
+.texto_inte
+{
+    position: absolute;
+    top: 2400px ;
+    left: 58px;
+    z-index: 10;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Sifonn';
+}
+
+.img_alexia
+{
+    position: absolute;
+    z-index: 10;
+    width: 20%;
+    top: 2500px;
+    left: 150px;
+    border-radius: 50%;
+}
+
+.nome_alexia
+{
+    position: absolute;
+    z-index: 10;
+    top: 2620px;
+    left: 500px;
+    font-size: 1.5rem;
+    color: white;
+}
+.img_leonardo
+{
+    position: absolute;
+    z-index: 10;
+    width: 20%;
+    top: 2750px;
+    left: 520px;
+    border-radius: 50%;
+
+}
+
+.nome_leonardo
+{
+    position: absolute;
+    z-index: 10;
+    top: 2880px;
+    left: 870px;
+    font-size: 1.5rem;
+    color: white;
+}
+.img_luan
+{
+    position: absolute;
+    z-index: 10;
+    width: 15%;
+    top: 2500px;
+    left: 950px;
+    border-radius: 50% 50% 50% 50%;
+
+}
+
+.nome_luan
+{
+    position: absolute;
+    z-index: 10;
+    top: 2620px;
+    right: 250px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.img_luiz
+{
+    position: absolute;
+    z-index: 10;
+    width: 20%;
+    top: 3000px;
+    left: 150px;
+    border-radius: 50%;
+}
+
+.nome_luiz
+{
+    position: absolute;
+    z-index: 10;
+    top: 3140px;
+    left: 500px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.img_marcos
+{
+    position: absolute;
+    z-index: 10;
+    width: 20%;
+    top: 3000px;
+    left: 950px;
+    border-radius: 50% ;
+}
+.nome_marcos
+{
+    position: absolute;
+    z-index: 10;
+    top: 3140px;
+    right: 150px;
+    font-size: 1.5rem;
+    color: white;
+}
+.integrantes
+{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 span
 {
     color: #E9C129;
@@ -414,7 +528,7 @@ span
     color: white;
     position: absolute;
     text-align: justify;
-    top: 150px;
+    top: 180px;
     left: 50px;
     font-size: 1.2rem;
     width: 75%;
@@ -425,7 +539,7 @@ span
 {
     position: absolute;
     width: 15%;
-    top: 1980px;
+    top: 2100px;
     right: 60px;
     z-index: 2;
     border-radius: 20px;
@@ -440,7 +554,7 @@ span
     width: 1583px;
     height: 120px;
     left: 0px;
-    top: 2300px;
+    top: 3350px;
     background: #082B79;
 }
 .cont1
@@ -598,7 +712,3 @@ span
     background: #D7E0F2;
     border-radius: 28px;
 }
-
-
-
-

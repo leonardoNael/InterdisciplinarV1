@@ -21,6 +21,18 @@
     background: #082B79;
     border-radius: 25px;
 }
+
+.voltar
+{
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    font-size: 1.4rem;
+    z-index: 10;
+    font-weight: bold;
+    font-family: 'Inter,';
+}
+
 .pesquisa
 {
     position: absolute;

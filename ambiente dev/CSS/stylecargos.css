@@ -1,0 +1,183 @@
+body
+{
+    background-color: #E7EBF4
+}
+.logo
+{
+    width: 70px;
+    border-radius: 20px;
+    position: absolute;
+    left: 7%;
+    top: 5%;
+    z-index: 10;
+}
+
+.barra
+{
+    position: absolute;
+    width: 1418px;
+    height: 90px;
+    left: 5.5rem;
+    top: 27px;
+    background: #082B79;
+    border-radius: 25px;
+}
+
+.barra_inferior
+{
+    position: absolute;
+    width: 1583px;
+    height: 45px;
+    left: 0rem;
+    top: 720px;
+    
+    background: #082B79
+
+}
+
+.img_titulo
+{
+    flex-wrap: wrap;
+    position: absolute;
+    border-radius: 2px;
+    top: 200px;
+    left: 640px;
+    width: 50%;
+    z-index: 3;
+    border-radius: 15px;
+}
+
+.texto_titulo
+{
+    flex-wrap: wrap;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #414141;
+    
+    width: 500px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+span
+{
+    color: #fa911b;
+}
+
+.conteudo
+{
+
+
+    position:absolute;
+    width: 80%;
+    left: 95px;
+    top: 900px;
+}
+
+p
+{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+.area
+{
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    left: 1330px;
+    top: 54px;
+
+    background: rgba(239, 200, 48, 0.92);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Inter', sans-serif ;
+    font-weight: bold;
+    color: #103A95;
+    z-index: 10;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+}
+.inicio
+{
+    position: absolute;
+    width: 142px;
+    height: 35px;
+    left: 1180px;
+    top: 54px;
+    z-index: 11;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Inter', sans-serif ;
+    font-weight: bold;
+    
+}
+
+.img_legislativos
+{
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    width: 40%;
+    left: 25rem;
+    z-index: 3;
+    border-radius: 15px;
+}
+.img_executivo
+{
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    width: 40%;
+    left: 25rem;
+    z-index: 3;
+    border-radius: 15px;
+}
+.img_judiciario
+{
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    width: 40%;
+    left: 25rem;
+    z-index: 3;
+    border-radius: 15px;
+}
+.icone
+{
+    position: relative;
+    width: 25px;
+    left: -2px;
+    top: 3px;
+    justify-content:left;
+    align-items: flex-start;  
+}
+
+.conteudos
+{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background-color: #082B79;
+    top: 840px;
+    left: 5.5rem;
+    display: flex;
+    font-family: 'Inter', sans-serif ;
+    font-weight: bold;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}

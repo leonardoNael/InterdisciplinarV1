@@ -12,6 +12,7 @@ body
     left: 7%;
     top: 5%;
     z-index: 10;
+    user-select: none;
 }
 
 .matricula
@@ -31,12 +32,13 @@ body
     font-weight: bold;
     color: #103A95;
     z-index: 10;
+    user-select: none;
 }
 
 .area
 {
     position: absolute;
-    width: 142px;
+    width: 150px;
     height: 35px;
     left: 1330px;
     top: 54px;
@@ -50,6 +52,10 @@ body
     font-weight: bold;
     color: #103A95;
     z-index: 10;
+    user-select: none;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
 }
 
 .caixaazul
@@ -61,6 +67,7 @@ body
     top: 0px;
     z-index: 5 ;
     background: #082B79;
+    user-select: none;
 }
 
 .azulclaro
@@ -73,6 +80,7 @@ body
     z-index: 4;
 
     background: rgba(16, 58, 149, 0.74);
+    user-select: none;
 }
 
 .azul
@@ -84,6 +92,7 @@ body
     top: 22px;
 
     background: #7893CE;
+    user-select: none;
 }
 
 .texto
@@ -95,7 +104,8 @@ body
     left: 470px;
     font-size: 90px;
     text-align: center;
-    font-family: 'Peace Sans', sans-serif;;
+    font-family: 'Peace Sans', sans-serif;
+    user-select: none;
 }
 
 #estudo
@@ -108,6 +118,7 @@ body
     font-family: 'Sifonn', sans-serif;
     font-size: 40px;
     text-shadow: 0.07em 0.03em 0.03em rgb(214, 214, 214);
+    user-select: none;
 }
 .textura1{
     z-index: 7;
@@ -116,6 +127,7 @@ body
     height: 405px;
     left: 0px;
     top: 0px;
+    user-select: none;
 }
 .textura2{
     z-index: 7;
@@ -124,6 +136,7 @@ body
     height: 405px;
     left: 782px;
     top: 0px;
+    user-select: none;
 }
 
 .container
@@ -153,6 +166,15 @@ body
     top: 720px;
 
 }
+.icone
+{
+    position: relative;
+    width: 25px;
+    left: -2px;
+    top: 3px;
+    justify-content:left;
+    align-items: flex-start;  
+}
 .frase1
 {
 
@@ -169,6 +191,7 @@ body
     color: #082B79;
     position: absolute;
     z-index: 10;
+    user-select: none;
 
 }
 .frase2
@@ -187,6 +210,7 @@ body
     color: #082B79;
     position: absolute;
     z-index: 10;
+    user-select: none;
 
 }
 .frase3
@@ -203,6 +227,7 @@ body
     color: #082B79;
     position: absolute;
     z-index: 10;
+    user-select: none;
 }
 .bloco1
 {
@@ -282,6 +307,7 @@ p
     height: 688.24px;
     left: -60.16px;
     top: 1000px;
+    user-select: none;
 }
 .elipse2
 {
@@ -290,6 +316,7 @@ p
     height: 5rem;
     left: 81.04rem;
     top: 1000px;
+    user-select: none;
 }
 .elipse3
 {
@@ -298,6 +325,7 @@ p
     height: 688.24px;
     left: 30px;
     top: 1000px;
+    user-select: none;
 }
 .elipse4
 {
@@ -306,6 +334,7 @@ p
     height: 5rem;
     left: 59.7rem;
     top: 1000px;
+    user-select: none;    
 }
 .linha
 {
@@ -347,15 +376,185 @@ p
     line-height: 29px;
     z-index: 11;
     color: #082B79;
-    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.48)
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.48);
+    user-select: none;
 }
+
+.container_sobre_nos
+{
+    position: absolute;
+    left: 0;
+    top: 2000px;
+    width:1583px ;
+    height: 1360px;
+    background-color: #0c204b;
+    background-image: url("doodlw.png");
+    font-family: 'Sifonn';
+    z-index: 10;
+}
+
+.texto_inte
+{
+    position: absolute;
+    top: 2400px ;
+    left: 58px;
+    z-index: 10;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Sifonn';
+}
+
+.img_alexia
+{
+    position: absolute;
+    z-index: 10;
+    width: 20%;
+    top: 2500px;
+    left: 150px;
+    border-radius: 50%;
+}
+
+.nome_alexia
+{
+    position: absolute;
+    z-index: 10;
+    top: 2620px;
+    left: 500px;
+    font-size: 1.5rem;
+    color: white;
+}
+.img_leonardo
+{
+    position: absolute;
+    z-index: 10;
+    width: 20%;
+    top: 2750px;
+    left: 520px;
+    border-radius: 50%;
+
+}
+
+.nome_leonardo
+{
+    position: absolute;
+    z-index: 10;
+    top: 2880px;
+    left: 870px;
+    font-size: 1.5rem;
+    color: white;
+}
+.img_luan
+{
+    position: absolute;
+    z-index: 10;
+    width: 18%;
+    top: 2500px;
+    left: 950px;
+    border-radius: 50%;
+
+}
+
+.nome_luan
+{
+    position: absolute;
+    z-index: 10;
+    top: 2620px;
+    right: 190px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.img_luiz
+{
+    position: absolute;
+    z-index: 10;
+    width: 20%;
+    top: 3000px;
+    left: 150px;
+    border-radius: 50%;
+}
+
+.nome_luiz
+{
+    position: absolute;
+    z-index: 10;
+    top: 3140px;
+    left: 500px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.img_marcos
+{
+    position: absolute;
+    z-index: 10;
+    width: 20%;
+    top: 3000px;
+    left: 950px;
+    border-radius: 50% ;
+}
+.nome_marcos
+{
+    position: absolute;
+    z-index: 10;
+    top: 3140px;
+    right: 130px;
+    font-size: 1.5rem;
+    color: white;
+}
+.integrantes
+{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+}
+span
+{
+    color: #E9C129;
+}
+
+.titulo
+{
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold
+}
+
+.txt
+{
+    color: white;
+    position: absolute;
+    text-align: justify;
+    top: 180px;
+    left: 50px;
+    font-size: 1.2rem;
+    width: 75%;
+    
+}
+
+.logo_polizando
+{
+    position: absolute;
+    width: 15%;
+    top: 2100px;
+    right: 60px;
+    z-index: 2;
+    border-radius: 20px;
+    z-index: 20;
+
+}
+
+
 .rodape
 {
     position: absolute;
     width: 1583px;
     height: 120px;
     left: 0px;
-    top: 1830px;
+    top: 3350px;
     background: #082B79;
 }
 .cont1
@@ -442,6 +641,7 @@ p
     background: #082B79;
     border-radius: 25px;
 }
+
 .inicio
 {
     position: absolute;
@@ -512,7 +712,3 @@ p
     background: #D7E0F2;
     border-radius: 28px;
 }
-
-
-
-

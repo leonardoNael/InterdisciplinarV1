@@ -88,7 +88,7 @@ p
 .area
 {
     position: absolute;
-    width: 142px;
+    width: 150px;
     height: 35px;
     left: 1330px;
     top: 54px;
@@ -102,8 +102,9 @@ p
     font-weight: bold;
     color: #103A95;
     z-index: 10;
-    justify-content: left;
+    justify-content: center;
     align-items: flex-start;
+    display: flex;
 }
 .inicio
 {
@@ -154,12 +155,12 @@ p
     z-index: 3;
     border-radius: 15px;
 }
-.conteudos
-{
-
-}
 .icone
 {
+    position: relative;
     width: 25px;
-    
+    left: -2px;
+    top: 3px;
+    justify-content:left;
+    align-items: flex-start;  
 }

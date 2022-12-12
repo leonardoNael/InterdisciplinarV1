@@ -1,6 +1,6 @@
 body
 {
-    background-color: #3F68C6;
+    background-color:  #103A95;
 font-family:'Inter', serif;
 
 }
@@ -21,96 +21,96 @@ z-index: 2;
 .retangulo2
 {
     position: absolute;
-width: 540px;
-height: 695px;
-left: 80px;
-top: 25px;
+    width: 540px;
+    height: 695px;
+    left: 80px;
+    top: 25px;
 
-background: rgba(236, 235, 235, 0.23);
-border-radius: 12px;
-transform: rotate(-5deg);
-z-index: 1;
+    background: rgba(236, 235, 235, 0.23);
+    border-radius: 12px;
+    transform: rotate(-5deg);
+    z-index: 1;
 }
 
 .logo
 {
     position: absolute;
-width: 84px;
-height: 84px;
-left: 308px;
-top: 50px;
+    width: 84px;
+    height: 84px;
+    left: 308px;
+    top: 50px;
 
-background: url(P.png);
-border-radius: 15px;
-z-index: 3;
+    background: url(P.png);
+    border-radius: 15px;
+    z-index: 3;
 }
 
 
 .email
 {
     position: absolute;
-width: 48px;
-height: 22px;
-left: 332px;
-top: 250px;
+    width: 48px;
+    height: 22px;
+    left: 332px;
+    top: 250px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 
-color: #000000;
-z-index: 3;
+    color: #000000;
+    z-index: 3;
 }
 
 .cx1
 {
     box-sizing: border-box;
 
-position: absolute;
-width: 408px;
-height: 50px;
-left: 151px;
-top: 300px;
+    position: absolute;
+    width: 408px;
+    height: 50px;
+    left: 151px;
+    top: 300px;
 
-background: #FFFFFF;
-border-radius: 20px;
-z-index: 3;
+    background: #FFFFFF;
+    border-radius: 20px;
+    z-index: 3;
 }
 
 .senha
 {
     position: absolute;
-width: 176px;
-height: 45px;
-left:  332px;
-top: 400px;
+    width: 176px;
+    height: 45px;
+    left:  332px;
+    top: 400px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 
-color: #000000;
-z-index: 3;
+    color: #000000;
+    z-index: 3;
 }
 
 .cx2
 {
     box-sizing: border-box;
 
-position: absolute;
-width: 408px;
-height: 50px;
-left: 151px;
-top: 450px;
+    position: absolute;
+    width: 408px;
+    height: 50px;
+    left: 151px;
+    top: 450px;
 
-background: #FFFFFF;
-border: 1px solid #000000;
-border-radius: 20px;
-z-index: 3;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    z-index: 3;
 }
 
 .nao_vendo
@@ -150,14 +150,15 @@ z-index: 3;
 .enviar
 {
     position: absolute;
-width: 185px;
-height: 40px;
-left: 410px;
-top: 650px;
-
-background: #3F68C6;
-border-radius: 15px;
-z-index: 3;
+    width: 185px;
+    height: 40px;
+    left: 410px;
+    top: 650px;
+    font-weight: 900;
+    color: white;
+    background:  #103A95;
+    border-radius: 15px;
+    z-index: 3;
 }
 
 .imagem_lateral

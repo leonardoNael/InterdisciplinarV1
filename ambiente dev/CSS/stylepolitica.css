@@ -26,12 +26,12 @@ body
 .barra_inferior
 {
     position: absolute;
-    width: 1642px;
+    width: 1583px;
     height: 45px;
-    left: -58px;
+    left: 0rem;
     top: 720px;
     
-    background: #366adb
+    background: #082B79
 
 }
 
@@ -95,7 +95,7 @@ ul
 .area
 {
     position: absolute;
-    width: 142px;
+    width: 150px;
     height: 35px;
     left: 1330px;
     top: 54px;
@@ -109,4 +109,30 @@ ul
     font-weight: bold;
     color: #103A95;
     z-index: 10;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+}
+.inicio
+{
+    position: absolute;
+    width: 142px;
+    height: 35px;
+    left: 1180px;
+    top: 54px;
+    z-index: 11;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Inter', sans-serif ;
+    font-weight: bold;  
+}
+.icone
+{
+    position: relative;
+    width: 25px;
+    left: -2px;
+    top: 3px;
+    justify-content:left;
+    align-items: flex-start;  
 }

@@ -38,7 +38,7 @@ body
 .area
 {
     position: absolute;
-    width: 142px;
+    width: 150px;
     height: 35px;
     left: 1330px;
     top: 54px;
@@ -53,6 +53,9 @@ body
     color: #103A95;
     z-index: 10;
     user-select: none;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
 }
 
 .caixaazul
@@ -162,6 +165,15 @@ body
     left: 160px;
     top: 720px;
 
+}
+.icone
+{
+    position: relative;
+    width: 25px;
+    left: -2px;
+    top: 3px;
+    justify-content:left;
+    align-items: flex-start;  
 }
 .frase1
 {

@@ -8,9 +8,11 @@ var pagAtual = 1;
 var errada = ["e1", "e2", "e3"];
 
 var quiz = ["quiz1.html", "quiz2.html", "quiz3.html", "quiz4.html", "quiz5.html", "quiz6.html",
-    "quiz7.html", "quiz8.html", "quiz9.html", "quiz10.html", "quiz11.html", "quiz12.html" ]
+    "quiz7.html", "quiz8.html", "quiz9.html", "quiz10.html", "quiz11.html", "quiz12.html" ];
 
+var tempo;
 
+/*Login e cadastro*/
 function login()
 {
     var usuario = document.getElementById("txtUsuario").value;
@@ -34,11 +36,20 @@ function login()
     document.getElementById("txtUsuario").value = '';
     document.getElementById("txtSenha").value = '';
 
-    if(loginBlock == 0)
+    if(loginBlock == 2)
     {
         document.getElementById("txtUsuario").disabled = true;
         document.getElementById("txtSenha").disabled = true;
+
+        tempo = setTimeout(voltar, 30000);
+        alert("Acesso bloqueado! Aguarde 30 segundos para tentar novamente");
     }
+
+}
+
+function voltar(){
+    document.getElementById("txtUsuario").disabled = false;
+    document.getElementById("txtSenha").disabled = false;
 }
 
 function versenha()
@@ -56,6 +67,22 @@ function naoversenha()
     document.getElementById("naovendo").style.display = 'block';
 }
 
+function enviarCadastro()
+{
+    alert("Cadastro concluído com sucesso!");
+    window.location.href = 'index.html'
+}
+/*Login e cadastro*/
+
+/*Area do aluno*/
+function sair()
+{
+    alert("Nos vemos em breve. Volte logo!");
+    window.location.href = 'index.html'
+}
+/*Area do aluno*/
+
+/*Jogo abaixo, não alterar*/
 
 function allowDrop(ev)
 {
@@ -70,10 +97,12 @@ function drag(ev)
 function drop1(ev)
 {
     var data = ev.dataTransfer.getData("Text");
-    ev.target.appendChild(document.getElementById(data));
-    ev.preventDefault();
-    document.getElementById("botoesJ").style.display = 'block';  
+    /*ev.target.appendChild(document.getElementById(data));
+    ev.preventDefault();*/
     
+    document.getElementById("botoesJ").style.display = 'block';  
+
+
     if(data != document.getElementById("c"))
     {
         document.getElementById("c").style.visibility = 'hidden'
@@ -101,7 +130,6 @@ function enviar1()
         window.location = quiz[1];
     }
 }
-
 function enviar2()
 {   
 
@@ -115,7 +143,6 @@ function enviar2()
         window.location = quiz[2];
     }
 }
-
 function enviar3()
 {   
 
@@ -129,7 +156,6 @@ function enviar3()
         window.location = quiz[3];
     }
 }
-
 function enviar4()
 {   
 
@@ -143,7 +169,6 @@ function enviar4()
         window.location = quiz[4];
     }
 }
-
 function enviar5()
 {   
 
@@ -157,7 +182,6 @@ function enviar5()
         window.location = quiz[5];
     }
 }
-
 function enviar6()
 {   
 
@@ -171,7 +195,6 @@ function enviar6()
         window.location = quiz[6];
     }
 }
-
 function enviar7()
 {   
 
@@ -185,7 +208,6 @@ function enviar7()
         window.location = quiz[7];
     }
 }
-
 function enviar8()
 {   
 
@@ -199,7 +221,6 @@ function enviar8()
         window.location = quiz[8];
     }
 }
-
 function enviar9()
 {   
 
@@ -213,7 +234,6 @@ function enviar9()
         window.location = quiz[9];
     }
 }
-
 function enviar10()
 {   
 
@@ -227,7 +247,6 @@ function enviar10()
         window.location = quiz[10];
     }
 }
-
 function enviar11()
 {   
 
@@ -258,3 +277,4 @@ function corrigir()
 {
     window.location.reload();
 }
+/*Jogo acima*/

@@ -22,13 +22,13 @@ function login()
     {
         alert("Usuário não encontrado.");
     }
-    else if(usuario == "admin" && parseInt(senha) != 1)
+    else if(usuario == "admin" && senha != "admin")
     {
         alert("Senha incorreta!");
         loginBlock--;
         alert("Tentativas restantes: "+loginBlock);
     }
-    else if(usuario == "admin" && parseInt(senha) == 1)
+    else if(usuario == "admin" && senha == "admin")
     {
         window.location.href = "areadoaluno.html";
     } 
@@ -36,7 +36,7 @@ function login()
     document.getElementById("txtUsuario").value = '';
     document.getElementById("txtSenha").value = '';
 
-    if(loginBlock == 2)
+    if(loginBlock == 0)
     {
         document.getElementById("txtUsuario").disabled = true;
         document.getElementById("txtSenha").disabled = true;

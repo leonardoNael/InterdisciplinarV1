@@ -557,13 +557,35 @@ span
     width: 1583px;
     height: 120px;
     left: 0px;
-    top: 3360px;
+    top: 860px;
     background: #082B79;
+}
+
+.rodapeI
+{
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+    position: absolute;
+    width: 1583px;
+    height: 120px;
+    left: 0px;
+    top: 3350px;
+    background: #082B79;
+}
+
+.infosI
+{
+    left: 50px;
+    font-size: 0.8rem;
+    text-align: center;
+    position: absolute;
+    top: 30px;
 }
 
 .infos
 {
-    left: 70px;
+    left: 50px;
     font-size: 0.8rem;
     text-align: center;
     position: absolute;
@@ -719,7 +741,7 @@ span
 .caixapoli
 {
     position: absolute;
-    width: 1600px;
+    width: 1583px;
     height: 65px;
     left: 0px;
     top: 175px;

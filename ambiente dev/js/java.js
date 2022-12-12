@@ -112,7 +112,6 @@ function drop1(ev)
     
     document.getElementById("botoesJ").style.display = 'block';  
 
-
     if(data != document.getElementById("c"))
     {
         document.getElementById("c").style.visibility = 'hidden'
@@ -264,11 +263,11 @@ function enviar12()
 
     if(div == document.getElementById("c"))
     {  
-        window.location = quiz[12];
+        window.location = '../posJogo.html';
     }
     else
     {
-        window.location = quiz[12];
+        window.location = '../posJogo.html';
     }
 }
 function corrigir()

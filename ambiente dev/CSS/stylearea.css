@@ -204,6 +204,7 @@
     height: 135px;
     left: 14rem;
     top: 480px;
+    user-select: none;
 }
 .legenda2
 {
@@ -224,5 +225,20 @@
     height: 135px;
     left: 12rem;
     top: 780px;
+    user-select: none;
 }
+a:link
+{
+    text-decoration: none;
+    color: #082B79;
+}
+a:visited
+{
+    color: #082B79;
+}
+a:hover
+{   
 
+    filter: none;
+    color: #082B79;
+}

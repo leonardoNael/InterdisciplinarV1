@@ -571,6 +571,11 @@ span
     border: 1px solid #082B79;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
+
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 1.2rem;
 }
 .cont2
 {
@@ -586,6 +591,11 @@ span
     border: 1px solid #082B79;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
+
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 1.2rem;
 }
 .cont3
 {
@@ -600,13 +610,18 @@ span
     border: 1px solid #082B79;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
+
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 1.2rem;
 }
 .cont4
 {
     box-sizing: border-box;
     position: absolute;
     width: 201px;
-    height: 47px;
+    height: 67px;
     left: 880px;
     top: 1570px;
     z-index: 11;
@@ -614,6 +629,16 @@ span
     border: 1px solid #082B79;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
+
+   
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2rem;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 .cont5
 {
@@ -621,7 +646,7 @@ span
 
     position: absolute;
     width: 201px;
-    height: 47px;
+    height: 67px;
     left: 540px;
     top: 1470px;
     z-index: 11;
@@ -629,6 +654,15 @@ span
     border: 1px solid #082B79;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
+
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2rem;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 
 .caixanav

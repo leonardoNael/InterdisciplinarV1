@@ -4,6 +4,24 @@ body
 font-family:'Inter', serif;
 }
 
+.voltar
+{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 1.8rem;
+    z-index: 10;
+    font-weight: bold;
+    font-family: 'Iceland';
+}
+
+a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
 .cx1
 {
     position: absolute;

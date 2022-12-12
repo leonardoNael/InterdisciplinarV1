@@ -263,11 +263,11 @@ function enviar12()
 
     if(div == document.getElementById("c"))
     {  
-        window.location = quiz[12];
+        window.location = '../posJogo.html';
     }
     else
     {
-        window.location = quiz[12];
+        window.location = '../posJogo.html';
     }
 }
 function corrigir()

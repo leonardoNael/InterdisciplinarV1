@@ -448,10 +448,10 @@ p
 {
     position: absolute;
     z-index: 10;
-    width: 15%;
+    width: 18%;
     top: 2500px;
     left: 950px;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
 
 }
 
@@ -460,7 +460,7 @@ p
     position: absolute;
     z-index: 10;
     top: 2620px;
-    right: 250px;
+    right: 190px;
     font-size: 1.5rem;
     color: white;
 }
@@ -499,13 +499,14 @@ p
     position: absolute;
     z-index: 10;
     top: 3140px;
-    right: 150px;
+    right: 130px;
     font-size: 1.5rem;
     color: white;
 }
 .integrantes
 {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
 }
 span
 {

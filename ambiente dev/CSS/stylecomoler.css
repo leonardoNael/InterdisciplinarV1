@@ -157,13 +157,13 @@ ul
 .rodape
 {
     font-family: 'Montserrat', sans-serif;
-
     color: white;
     position: absolute;
     width: 1583px;
     height: 120px;
     top: 2255px;
     background: #082B79;
+    left: 0px;
 }
 .infos
 {

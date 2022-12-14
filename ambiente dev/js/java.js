@@ -1,11 +1,16 @@
-var acertos = 0;
 var loginBlock = 3;
 var div = '';
+
 
 var local = '';
 
 var pagAtual = 1;
 var errada = ["e1", "e2", "e3"];
+var alternativas = ["e1", "e2", "e3","certa"]
+var acertos = 1;
+
+
+var resp = window.localStorage.getItem("pontuacao");
 
 var quiz = ["quiz1.html", "quiz2.html", "quiz3.html", "quiz4.html", "quiz5.html", "quiz6.html",
     "quiz7.html", "quiz8.html", "quiz9.html", "quiz10.html", "quiz11.html", "quiz12.html" ];
@@ -112,17 +117,14 @@ function drop1(ev)
     
     document.getElementById("botoesJ").style.display = 'block';  
 
-    if(data != document.getElementById("c"))
+    if(data == "c")
     {
-        document.getElementById("c").style.visibility = 'hidden'
-        for(var inc = 0; inc < 4; inc++)
-        {   
-            if(data != errada[inc])
-            {
-                document.getElementById(errada[inc]).style.visibility = 'hidden';
-            }
-        }
+        var respostas = window.localStorage.setItem("pontuacao", acertos );
+        respostas.pontuacao = 2;
+        
     }
+
+    
     
     div = data;
 }
@@ -149,6 +151,8 @@ function enviar2()
     {
         window.location = quiz[2];
     }
+    
+    
 }
 function enviar3()
 {   
